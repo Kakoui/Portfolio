@@ -1,0 +1,69 @@
+/*---------- style.css for Portfolio Kakoui ----------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body { 
+    background-image: url('../image/background.png');
+    background-size: 100%;
+    color: white;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* --------------------------------------- Navigation ---------------------------------------*/
+
+nav {
+    position: absolute;
+    top: 40%;
+    left: 0%;
+    text-decoration: none;
+}
+
+/*-- Navigation Groupe --*/
+
+.nav_group {
+    text-decoration: none;
+}
+
+
+
+
+/*------------------------------------------------------------------------------*/
+
+
+
+/* --------------------------------------- Header ---------------------------------------*/
+
+header {
+    position: absolute;
+    top: 20%;
+    left: 0%;
+    margin: 0%;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 50%;
+    width: 20%;
+}
+
+#title_portfolio {
+    position: absolute;
+    top: 5%;
+    left: 30%;
+}
+
+/*------------------------------------------------------------------------------*/
+
+
+
+/* --------------------------------------- Footer ---------------------------------------*/
+
+footer {
+    position: absolute;
+}
+
+#copyright_footer {
+    position: absolute;
+    bottom: 10%;
+    right: 20%;
+}
+
+/*------------------------------------------------------------------------------*/
