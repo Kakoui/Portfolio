@@ -1,53 +1,110 @@
 <!---------- index.html for Portfolio Kakoui ---------->
 
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fr">
-<head>
-  <meta charset="utf-8">
-  <title>Acceuil - Kakoui</title>
+  <head>
+    <meta charset="utf-8" />
+    <title>Acceuil - Kakoui</title>
 
-  <link rel="shortcut icon" href="../image/me.png" type="image/x-icon">
-  <script src="script.js"></script>
+    <link rel="shortcut icon" href="../image/me.png" type="image/x-icon" />
 
-  <!-- CSS -->
+    <!-- CSS -->
 
-  <link rel="stylesheet" href="../css/style.css" type="text/css" />
-  <link rel="stylesheet" href="../css/home.css" type="text/css" />
+    <link rel="stylesheet" href="../css/style.css" type="text/css" />
+    <link rel="stylesheet" href="../css/home.css" type="text/css" />
 
-  <!-- Navigation -->
+    <!-- Navigation -->
 
-  <nav>
-    <ul class="nav_group">
-        <li><img src="../image/home_icon_white.png" height="20" width="20"><a href="index.html"></a>Home</a></li>
-        <li><img src="../image/about_icon_white.png" height="20" width="20"><a href="index.html"></a><a href="about.html">About</a></li>
-        <li><img src="../image/project_icon_white.png" height="20" width="20"><a href="index.html"></a><a href="projet.html">Project</a></li>
-        <li><img src="../image/contact_icon_white.png" height="20" width="20"><a href="index.html"></a><a href="contact.html">Contact</a></li>
-    </ul>
-  </nav>
+    <nav>
+      <ul class="nav_group">
+        <li id="home_nav">
+          <img
+            src="../image/home_icon_white.png"
+            height="35"
+            width="35"
+            id="image_home_nav"
+            alt="home_icon_white.png"
+          />
+          <a href="index.html" id="text_home_nav">Home</a>
+        </li>
+        <li id="about_nav">
+          <img
+            src="../image/about_icon_white.png"
+            height="35"
+            width="35"
+            id="image_about_nav"
+            alt="about_icon_white.png"
+          />
+          <a href="about.html" id="text_about_nav">About</a>
+        </li>
+        <li id="project_nav">
+          <img
+            src="../image/project_icon_white.png"
+            height="35"
+            width="35"
+            id="image_project_nav"
+            alt="project_icon_white.png"
+          />
+          <a href="projet.html" id="text_project_nav">Project</a>
+        </li>
+        <li id="contact_nav">
+          <img
+            src="../image/contact_icon_white.png"
+            height="35"
+            width="35"
+            id="image_contact_nav"
+            alt="contact_icon_white.png"
+          />
+          <a href="contact.html" id="text_contact_nav">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </head>
 
-</head>
-
-<body>
-
-
+  <body>
     <!-- Header -->
 
     <header>
-      <h1 id="title_portfolio">Portfolio</h1>
+      <h1 id="title_portfolio">
+        <h1 id="title_port">PORT</h1>
+        <h1 id="title_folio">FOLIO</h1>
+      </h1>
     </header>
 
     <!-- About -->
 
     <article class="article_kakoui_home">
-      <a href="about.html"><h1 id="text1_kakoui_home">KAKOUI</h1>
+      <a href="about.html"><h1 id="text1_kakoui_home">KAKOUI</h1></a>
       <!--PDP-->
-      <img id="image1_kakoui_home" src="../image/me_ovale.png" height="140" width="140">
-      <h4 id="text2">J'ai commencer </h4>
+      <img
+        id="image1_kakoui_home"
+        src="../image/me_ovale.png"
+        height="27.5%"
+        width="12.5%"
+        alt="me_ovale.png"
+      />
+      <h4 id="text2_kakoui_home">
+        3 years ago, I received from someone in my family an old computer. This
+        computer was an "HP PRO" with an I3 inside and 8 GB of RAM. I discovered
+        programming at the beginning with
+        <a
+          href="https://fr.wikipedia.org/wiki/HTML5"
+          style="color: grey; font-weight: normal"
+          >HTML 5 </a
+        >and
+        <a
+          href="https://fr.wikipedia.org/wiki/Feuilles_de_style_en_cascade"
+          style="color: grey; font-weight: normal"
+          >CSS 3</a
+        >
+        and...
+      </h4>
       <!--BUTTON_READMORE-->
       <button id="button_readmore_home" href="about.html">READ MORE</button>
       <!--BUTTON_DISCORD-->
-      <button id="button_discord_home"><a href="https://discord.gg/e296TW5T4S">OUR DISCORD</a></button>
-
+      <button id="button_discord_home">
+        <a href="https://discord.gg/e296TW5T4S">OUR DISCORD</a>
+      </button>
     </article>
 
     <!-- Footer -->
@@ -55,8 +112,12 @@
     <footer>
       <!-- Copyright -->
 
-      <h4 id="copyright_footer">Copyright © 2023 Kakoui</h4>
+      <h4 id="copyright_footer">Copyright © 2023 Kakoui. Kokan by Kakoui</h4>
     </footer>
 
+    <!-- JS -->
 
-</body>
+    <script src="../js/app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+  </body>
+</html>

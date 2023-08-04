@@ -19,13 +19,184 @@ nav {
     text-decoration: none;
 }
 
-/*-- Navigation Groupe --*/
+/*---------------------- Navigation Groupe ----------------------*/
 
 .nav_group {
     text-decoration: none;
 }
 
+/*-------------------- HOME_NAV --------------------*/
 
+#home_nav {
+    position: absolute;
+    top: -400%;
+    left: 150%;
+    height: 500%;
+    width: 500%;
+    z-index: calc(1);
+    list-style-type: none;
+}
+
+#home_nav:hover {
+    background-color: white;
+    color:rgba(0, 0, 0, 0.5);
+    z-index: calc(1);
+    list-style-type: none;
+}
+
+/*----*/
+
+#image_home_nav {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+/*----*/
+
+#text_home_nav {
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    text-decoration: none; 
+    color: white;
+}
+
+#text_home_nav:hover {
+    color: grey;
+}
+
+/*----------------------------------------*/
+
+/*-------------------- ABOUT_NAV --------------------*/
+
+#about_nav {
+    position: absolute;
+    top: 200%;
+    left: 150%;
+    height: 500%;
+    width: 500%;
+    z-index: calc(1);
+    list-style-type: none;
+}
+
+#about_nav:hover {
+    background-color: white;
+    color:rgba(0, 0, 0, 0.5);
+    z-index: calc(1);
+    list-style-type: none;
+}
+
+/*----*/
+
+#image_about_nav {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+/*----*/
+
+#text_about_nav {
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    text-decoration: none; 
+    color: white;
+}
+
+#text_about_nav:hover {
+    color: grey;
+}
+
+/*----------------------------------------*/
+
+/*-------------------- PROJECT_NAV --------------------*/
+
+#project_nav {
+    position: absolute;
+    top: 800%;
+    left: 150%;
+    height: 500%;
+    width: 500%;
+    z-index: calc(1);
+    list-style-type: none;
+}
+
+#project_nav:hover {
+    background-color: white;
+    color:rgba(0, 0, 0, 0.5);
+    z-index: calc(1);
+    list-style-type: none;
+}
+
+/*----*/
+
+#image_project_nav {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+/*----*/
+
+#text_project_nav {
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    text-decoration: none; 
+    color: white;
+}
+
+#text_project_nav:hover {
+    color: grey;
+}
+
+/*----------------------------------------*/
+
+/*-------------------- CONTACT_NAV --------------------*/
+
+#contact_nav {
+    position: absolute;
+    top: 1400%;
+    left: 150%;
+    height: 500%;
+    width: 500%;
+    z-index: calc(1);
+    list-style-type: none;
+    
+}
+
+#contact_nav:hover {
+    background-color: white;
+    color:rgba(0, 0, 0, 0.5);
+    z-index: calc(1);
+    list-style-type: none;
+}
+
+/*----*/
+
+#image_contact_nav {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+/*----*/
+
+#text_contact_nav {
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    text-decoration: none; 
+    color: white;
+}
+
+#text_contact_nav:hover {
+    color: grey;
+}
+
+/*----------------------------------------*/
 
 
 /*------------------------------------------------------------------------------*/
@@ -40,14 +211,33 @@ header {
     left: 0%;
     margin: 0%;
     background-color: rgba(0, 0, 0, 0.5);
-    height: 50%;
+    height: 55%;
     width: 20%;
 }
 
 #title_portfolio {
     position: absolute;
-    top: 5%;
-    left: 30%;
+    top: 2%;
+    left: 15%;
+    background-color: rgb(46, 46, 46);
+    width: 60%;
+    height: 12.5%;
+    border-radius: 8%;
+}
+
+#title_port {
+    position: absolute;
+    top: 3.5%;
+    left: 22.9%;
+    font-weight: bolder;
+    letter-spacing: 0.05em;
+}
+
+#title_folio {
+    position: absolute;
+    top: 3.5%;
+    left: 45.1%;
+    font-weight: lighter;
 }
 
 /*------------------------------------------------------------------------------*/
@@ -58,12 +248,28 @@ header {
 
 footer {
     position: absolute;
+    bottom: 0%;
+    left: 85%;
+    height: 7%;
+    width: 12%;
 }
 
 #copyright_footer {
     position: absolute;
-    bottom: 10%;
-    right: 20%;
+    bottom: 30%;
+    right: 22.5%;
+    height: 10%;
+    width: 150%;
+}
+
+/*------------------------------------------------------------------------------*/
+
+/* --------------------------------------- Other ---------------------------------------*/
+
+/*-- Lien --*/
+
+a {
+    text-decoration: none;
 }
 
 /*------------------------------------------------------------------------------*/
