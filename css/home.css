@@ -4,11 +4,11 @@
 
 .article_kakoui_home {
     position: absolute;
-    top: 20%;
-    left: 40%;
+    top: 12.5%;
+    left: 30%;
     background-color: rgba(0, 0, 0, 0.5);
-    height: 55%;
-    width: 60%;
+    height: 75%;
+    width: 70%;
 }
 
 /*TitleOfArticle*/
@@ -21,6 +21,7 @@
     font-size: 250%;
     margin-left: 24.5%;
     font-weight: xx-large;
+    transition: 0.5s;
 }
 
 #text1_kakoui_home:hover {
@@ -29,6 +30,7 @@
     position: absolute;
     top: 26%;
     margin-left: 24.5%;
+    transition: 0.5s;
 }
 
 /*TextOfArticle*/
@@ -49,31 +51,34 @@
 
 #image1_kakoui_home {
     position: absolute;
-    left: 10%;
+    left: 3.5%;
     top: 35%;
+    transition: 0.5s;
 
 }
 
 #image1_kakoui_home:hover {
     position: absolute;
-    left: 9.5%;
-    top: 34.5%;
-    height: 28.5%;
-    width: 13.5%;
+    left: 3.75%;
+    top: 36%;
+    height: 27%;
+    width: 17%;
+    transition: 0.5s;
 }
 
 /*BUTTON_READMORE*/
 
 #button_readmore_home {
     position: absolute;
-    top: 65%;
+    top: 57.5%;
     left: 25%;
     text-decoration: none;
     border: 2px white solid;
     color: white;
     background: rgba(0,0,0,0.5);
-    height: 8%;
-    width: 10%;
+    height: 5.5%;
+    width: 8%;
+    font-size: 75%;
     transition: 0.5s;
 }
 
@@ -88,14 +93,15 @@
 
 #button_discord_home {
     position: absolute;
-    top: 65%;
-    left: 40%;
+    top: 57.5%;
+    left: 35%;
     text-decoration: none;
     border: 2px white solid;
     color: rgba(0,0,0,0.5);
     background: white;
-    height: 8%;
-    width: 10%;
+    height: 5.5%;
+    width: 8%;
+    font-size: 75%;
     transition: 0.5s;
 }
 

@@ -4,7 +4,7 @@
 <html lang="fr">
   <head>
     <meta charset="utf-8" />
-    <title>Acceuil - Kakoui</title>
+    <title>Home - Kakoui</title>
 
     <link rel="shortcut icon" href="../image/me.png" type="image/x-icon" />
 
@@ -12,6 +12,9 @@
 
     <link rel="stylesheet" href="../css/style.css" type="text/css" />
     <link rel="stylesheet" href="../css/home.css" type="text/css" />
+    <link rel="stylesheet" href="../css/about.css" type="text/css" />
+    <link rel="stylesheet" href="../css/project.css" type="text/css" />
+    <link rel="stylesheet" href="../css/contact.css" type="text/css" />
 
     <!-- Navigation -->
 
@@ -45,7 +48,7 @@
             id="image_project_nav"
             alt="project_icon_white.png"
           />
-          <a href="projet.html" id="text_project_nav">Project</a>
+          <a href="project.html" id="text_project_nav">Project</a>
         </li>
         <li id="contact_nav">
           <img
@@ -71,18 +74,20 @@
       </h1>
     </header>
 
-    <!-- About -->
+    <!-- Article About (Introduction) -->
 
     <article class="article_kakoui_home">
-      <a href="about.html"><h1 id="text1_kakoui_home">KAKOUI</h1></a>
+      <!--TitleOfArticle-->
+      <a href="src/about.html"><h1 id="text1_kakoui_home">KAKOUI</h1></a>
       <!--PDP-->
       <img
         id="image1_kakoui_home"
         src="../image/me_ovale.png"
-        height="27.5%"
-        width="12.5%"
+        height="28.5%"
+        width="17.5%"
         alt="me_ovale.png"
       />
+      <!--TextOfArticle-->
       <h4 id="text2_kakoui_home">
         3 years ago, I received from someone in my family an old computer. This
         computer was an "HP PRO" with an I3 inside and 8 GB of RAM. I discovered
@@ -100,10 +105,18 @@
         and...
       </h4>
       <!--BUTTON_READMORE-->
-      <button id="button_readmore_home" href="about.html">READ MORE</button>
+      <button id="button_readmore_home">
+        <a href="about.html" style="text-decoration: none; color: grey"
+          >READ MORE</a
+        >
+      </button>
       <!--BUTTON_DISCORD-->
       <button id="button_discord_home">
-        <a href="https://discord.gg/e296TW5T4S">OUR DISCORD</a>
+        <a
+          href="https://discord.gg/e296TW5T4S"
+          style="text-decoration: none; color: grey"
+          >OUR DISCORD</a
+        >
       </button>
     </article>
 

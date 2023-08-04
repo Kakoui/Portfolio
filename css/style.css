@@ -35,6 +35,7 @@ nav {
     width: 500%;
     z-index: calc(1);
     list-style-type: none;
+    transition: 0.5s;
 }
 
 #home_nav:hover {
@@ -42,6 +43,7 @@ nav {
     color:rgba(0, 0, 0, 0.5);
     z-index: calc(1);
     list-style-type: none;
+    transition: 0.5s;
 }
 
 /*----*/
@@ -72,12 +74,13 @@ nav {
 
 #about_nav {
     position: absolute;
-    top: 200%;
+    top: 300%;
     left: 150%;
     height: 500%;
     width: 500%;
     z-index: calc(1);
     list-style-type: none;
+    transition: 0.5s;
 }
 
 #about_nav:hover {
@@ -85,6 +88,7 @@ nav {
     color:rgba(0, 0, 0, 0.5);
     z-index: calc(1);
     list-style-type: none;
+    transition: 0.5s;
 }
 
 /*----*/
@@ -115,12 +119,13 @@ nav {
 
 #project_nav {
     position: absolute;
-    top: 800%;
+    top: 1000%;
     left: 150%;
     height: 500%;
     width: 500%;
     z-index: calc(1);
     list-style-type: none;
+    transition: 0.5s;
 }
 
 #project_nav:hover {
@@ -128,6 +133,7 @@ nav {
     color:rgba(0, 0, 0, 0.5);
     z-index: calc(1);
     list-style-type: none;
+    transition: 0.5s;
 }
 
 /*----*/
@@ -158,12 +164,13 @@ nav {
 
 #contact_nav {
     position: absolute;
-    top: 1400%;
+    top: 1700%;
     left: 150%;
     height: 500%;
     width: 500%;
     z-index: calc(1);
     list-style-type: none;
+    transition: 0.5s;
     
 }
 
@@ -172,6 +179,7 @@ nav {
     color:rgba(0, 0, 0, 0.5);
     z-index: calc(1);
     list-style-type: none;
+    transition: 0.5s;
 }
 
 /*----*/
@@ -207,11 +215,11 @@ nav {
 
 header {
     position: absolute;
-    top: 20%;
+    top: 12.5%;
     left: 0%;
     margin: 0%;
     background-color: rgba(0, 0, 0, 0.5);
-    height: 55%;
+    height: 75%;
     width: 20%;
 }
 
@@ -227,7 +235,7 @@ header {
 
 #title_port {
     position: absolute;
-    top: 3.5%;
+    top: 5%;
     left: 22.9%;
     font-weight: bolder;
     letter-spacing: 0.05em;
@@ -235,7 +243,7 @@ header {
 
 #title_folio {
     position: absolute;
-    top: 3.5%;
+    top: 5%;
     left: 45.1%;
     font-weight: lighter;
 }
