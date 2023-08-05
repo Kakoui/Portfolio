@@ -1,0 +1,30 @@
+/*---------- contact.css for Portfolio Kakoui ----------*/
+
+/*-- Article Contact  --*/ 
+
+.article_contactme_contact {
+    position: absolute;
+    top: 12.5%;
+    left: 30%;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 75%;
+    width: 70%;
+}
+
+/*TitleOfArticle*/
+
+#title_contactme_contact {
+    position: absolute;
+    top: 1%;
+    left: 20%;
+    font-size: 250%;
+    font-weight: bold;
+}
+
+/*MAP*/
+
+#map_contactme_contact {
+    position: absolute;
+    top: 15%;
+    left: 5%;
+}
