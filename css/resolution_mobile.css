@@ -1,0 +1,12 @@
+/*---------- resolution_mobile.css for Portfolio Kakoui ----------*/
+
+/*-- 1024px under --*/
+
+@media (max-width:  600px) {
+    /*style*/
+    nav {
+        position: absolute;
+        top: 10%;
+        left: 50%;
+    }
+}
