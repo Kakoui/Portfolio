@@ -2,11 +2,27 @@
 
 /*-- 1024px under --*/
 
-@media (max-width:  600px) {
+@media (max-width: 1280px) {
     /*style*/
     nav {
         position: absolute;
-        top: 10%;
-        left: 50%;
+        left: 1%;
+        height: 2%;
+        width: 2%;
+    }
+    footer{
+        width: 16%;
+    }
+
+    #copyright_footer {
+        position: absolute;
+        left: 0%;
+    }
+
+    /*home*/
+
+    #image1_kakoui_home {
+        height: 20%;
+        width: 20%;
     }
 }
