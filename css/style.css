@@ -298,20 +298,20 @@ header {
     width: 60%;
     height: 12.5%;
     border-radius: 8%;
+    font-size:  x-large;
 }
 
 #title_port {
     position: absolute;
-    top: 5%;
-    left: 22.9%;
+    top: 4.75%;
+    left: 23.25%;
     font-weight: bolder;
-    letter-spacing: 0.05em;
 }
 
 #title_folio {
     position: absolute;
-    top: 5%;
-    left: 45.1%;
+    top: 4.75%;
+    left: 44%;
     font-weight: lighter;
 }
 
@@ -324,17 +324,18 @@ header {
 footer {
     position: absolute;
     bottom: 0%;
-    left: 85%;
+    left: 60%;
     height: 7%;
-    width: 12%;
+    width: 30%;
 }
 
 #copyright_footer {
+    font-size: 100%;
     position: absolute;
     bottom: 30%;
-    right: 22.5%;
+    left: 10%;
     height: 10%;
-    width: 150%;
+    width: 100%;
 }
 
 /*------------------------------------------------------------------------------*/
