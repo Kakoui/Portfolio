@@ -15,7 +15,7 @@
 
 #title_myprojects_project {
     position: absolute;
-    top: 5%;
+    top: -3%;
     right: 45%;
     color: white;
     text-decoration: none;
@@ -24,4 +24,27 @@
     font-weight: bold;
     height: 100%;
     width: 50%;;
+}
+
+/*ProjectPresentation*/
+
+.project_grid_container {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-gap: 1em;
+}
+
+/*--*/
+
+#botpython_1 {
+    height: auto;
+    width: auto;
+}
+
+#minecraftserver_2 {
+    width: 20%;
+    height: 20%;
 }

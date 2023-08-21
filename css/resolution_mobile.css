@@ -68,4 +68,47 @@
         width: 11%;
         font-size: 70%;
     }
+
+    /*project*/
+
+    /*contact*/
+
+    #map_contactme_contact {
+        position: absolute;
+        top: 21%;
+        height: 57%;
+    }
+
+    #name_contactme_contact {
+        position: absolute;
+        top: 21%;
+    }
+
+    #email_contactme_contact {
+        position: absolute;
+        top: 31%;
+    }
+
+
+    #subject_contactme_contact {
+        position: absolute;
+        top: 41%;
+    }
+
+    #message_contactme_contact {
+        position: absolute;
+        top: 51%;
+    }
+
+    #checkbox_contactme_contact {
+        position: absolute;
+        top: 61%;
+    }
+
+    #button_contactme_contact {
+        position: absolute;
+        top: 71%;
+    }
+
+        
 }
