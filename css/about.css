@@ -42,9 +42,10 @@
     position: absolute;
     left: 5%;
     top: 17.5%;
-    height: 50%;
+    height: 72%;
     width: 37.5%;
     font-weight: lighter;
+    overflow: auto;
 }
 
 /*Button_READMORE*/
